@@ -9,7 +9,7 @@
 <body>
 <!-- LoginForm은 input박스에 값을 LoginProcess로 보냄(request, response) -->
 	<jsp:include page="../Common/Link.jsp"/> <!-- 외부에서 만든 메뉴 삽입 -->
-	<h2>로그인 페이지</h2>
+	<h2>테스트트트트</h2>
 	<span style="color: red; font-size: 1.2em;">
 		<%= request.getAttribute("LoginErrMsg") == null ? "" : request.getAttribute("LoginErrMsg") %>
 	</span>
